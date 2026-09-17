@@ -1,0 +1,8 @@
+model_list:
+  - model_name: claude-sonnet-4-5-20250929 # UPDATE: Must match Claude Code's requested model ID
+    litellm_params:
+      model: ollama_chat/<your-remote-model-id> # UPDATE: e.g., gemma4-12b-256k
+      api_base: http://localhost:11434
+
+general_settings:
+  master_key: sk-local-dev-key # Optional
